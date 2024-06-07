@@ -1,5 +1,4 @@
 /* GENERAL STYLES */
-
 @import "../styles/reset.css";
 
 body {
@@ -17,7 +16,6 @@ input:focus {
 }
 
 /* HEADER STYLES */
-
 #header {
     background-image: url(../images/img.jpg);
     height: 350px;
@@ -45,7 +43,6 @@ input:focus {
 }
 
 /* ADD NEW TASK STYLES */
-
 #add-new .todo {
     padding: 10px;
     width: 350px;
