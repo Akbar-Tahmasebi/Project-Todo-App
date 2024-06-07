@@ -11,7 +11,6 @@ myForm.addEventListener('submit', function(){
         ulItme.appendChild(itme);
         total++;
         document.querySelector('#totalnumber').innerHTML = total;
-
     }else{
         alert('type something ...');
     } 
