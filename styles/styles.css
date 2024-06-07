@@ -1,0 +1,92 @@
+/* GENERAL STYLES */
+
+@import "../styles/reset.css";
+
+body {
+    background-color: #272727;
+    font-family: arial;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* HEADER STYLES */
+
+#header {
+    background-image: url(../images/img.jpg);
+    height: 350px;
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,1);
+    
+}
+
+#header .titles {
+    padding-top: 50px;
+    color: #272727;
+}
+
+#header .titles h1 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#header .titles h2 {
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+/* ADD NEW TASK STYLES */
+
+#add-new .todo {
+    padding: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(39, 39, 39, 0.65);
+    color: #fff;
+    box-shadow: 0px 6px 36px 0px rgba(0,0,0,0.6);
+}
+
+/* tasks */
+#tasks {
+    background-color: rgba(59, 59, 59, 0.7);
+    border-radius: 3px;
+    width: 450px;
+    margin-left: 25px;
+    position: relative;
+    top: -100px;
+    color: #e0e0e0;
+    box-shadow: 0px 6px 36px 0px rgba(0,0,0,0.6);
+
+}
+
+#tasks ul li {
+    font-size: 20px;
+    padding: 12px;
+    border-bottom: 3px solid #272727;
+}
+
+#tasks ul li:last-child {
+    border: none;
+}
+
+#total {
+    position: relative;
+    top: -90px;
+    margin-left: 35px;
+    font-size: 17px;
+    color: rgb(99, 99, 99);
+}
